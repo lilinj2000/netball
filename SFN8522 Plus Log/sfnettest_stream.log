@@ -1,0 +1,549 @@
+max_times=5
+sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 17:59:44 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593493820
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=6666
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50001	50001	62709	3918	37509	9606210	46640	411483	2000	17	0	9614	0	0	0	0
+100000	100004	100001	37469	3721	37391	598053	41722	17820	2000	5	0	3678	0	2	6	0
+150000	150008	149974	38062	4106	37760	495292	41504	13930	2000	7	0	7375	0	2	69	0
+200000	200007	199936	37815	4282	38365	146275	41622	4553	2000	4	0	577	0	2	142	0
+250000	250023	249936	40462	6009	40411	158174	47528	4198	2000	230	0	230507	0	2	174	0
+300000	300033	299920	40814	6627	40775	103780	50101	4280	2000	555	0	13509	0	2	227	0
+350000	324225	324116	111779	7292	93460	634509	295896	67602	1852	72223	0	283052	490	3	219	0
+400000	325546	325414	111598	6772	91220	343357	306824	68096	1627	59979	0	242783	1329	2	264	0
+sfnt-stream: client: TX rate is 81% of target; stopping
+sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:00:06 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495330
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=6512
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50001	50001	44546	3012	34963	9074045	41090	380542	2000	9	0	11541	0	0	0	0
+100000	100004	100004	37786	3946	37954	99918	51603	5979	2000	147	0	31552	0	0	0	0
+150000	150008	149973	37886	4005	38139	115200	44171	4815	2000	88	0	91984	0	2	70	0
+200000	200007	199940	38504	4146	38585	663393	50836	16007	2000	85	0	80321	0	2	135	0
+250000	250024	249923	40890	5893	40571	650305	53724	19916	2000	31	0	11026	0	2	202	0
+300000	300034	299925	40803	6425	40713	533627	46772	13358	2000	101	0	11235	0	2	218	0
+350000	333633	333493	111865	7052	91293	748338	285116	67634	1906	68559	0	276280	316	3	279	0
+400000	332845	332701	111375	6880	92942	338772	298962	65879	1664	60984	0	243419	1219	3	288	0
+sfnt-stream: client: TX rate is 83% of target; stopping
+sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:00:28 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495840
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=5095
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50001	50001	65523	4059	6148	9393567	304108	524111	2000	5	0	3571	0	0	0	0
+100000	100004	100002	39153	5051	39939	346437	42320	8774	2000	9	0	11595	0	1	3	0
+150000	150008	150000	39187	6434	40022	154877	42094	4671	2000	29	0	50796	0	1	17	0
+200000	200007	199938	41440	5990	41149	78957	45292	3649	2000	6	0	4289	0	2	139	0
+250000	250023	249922	41995	5510	42483	105920	68223	6848	2000	106	0	8236	0	2	203	0
+300000	270423	270316	131069	13071	111070	408626	363484	80300	1802	79644	0	328019	557	2	213	0
+350000	271641	271509	129435	24001	102108	868349	360171	83252	1552	65187	0	268279	1378	2	265	0
+sfnt-stream: client: TX rate is 77% of target; stopping
+sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:00:48 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495480
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=5470
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50001	50001	65698	7446	39381	9905659	44108	430328	2000	4	0	1752	0	0	0	0
+100000	100004	99995	39185	5234	38782	753539	42780	20811	2000	4	0	13	0	2	17	0
+150000	150008	149991	39218	4867	38479	562603	44755	16306	2000	17	0	20608	0	1	34	0
+200000	200007	199982	38701	5368	38358	430063	43905	12290	2000	10	0	9801	0	3	50	0
+250000	250024	249950	39969	6648	39470	277705	44712	6116	2000	18	0	5878	0	2	147	0
+300000	300034	299902	40739	6664	40287	95600	44728	2810	2000	8	0	7251	0	2	265	0
+350000	350047	349873	40408	7545	40629	119674	45157	4135	2000	9	0	7735	0	2	348	0
+400000	399981	399817	40831	7063	40901	117838	44670	2633	1999	5	0	3407	1	3	328	0
+450000	449958	449749	40688	7692	40766	208978	45793	5047	1999	30	0	11342	1	3	419	0
+500000	492906	492794	84479	14341	73192	227506	201532	41048	1971	46485	0	189074	140	7	224	0
+550000	495116	494844	89191	13946	76382	233453	210004	43448	1800	45531	0	171783	1029	2	544	0
+600000	497021	496787	96677	13009	84892	227557	211594	46938	1656	43643	0	163158	1854	3	469	0
+sfnt-stream: client: TX rate is 82% of target; stopping
+sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:01:18 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496220
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=6586
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50001	50001	46523	3533	35564	8989306	72685	375875	2000	194	0	15438	0	0	0	0
+100000	100004	99996	34232	3727	37331	687219	41029	21342	2000	7	0	7155	0	2	16	0
+150000	150008	149968	38126	3972	37742	490576	43973	14345	2000	32	0	57873	0	2	81	0
+200000	200007	199971	38220	4133	38477	295050	43873	6977	2000	165	0	195280	0	3	73	0
+250000	250024	249940	40646	6625	40314	194909	66913	5450	2000	154	0	9025	0	2	167	0
+300000	300034	299901	40506	8747	40437	97547	44738	2573	2000	80	0	9494	0	2	267	0
+350000	334002	333815	111574	8051	93787	322060	285117	64171	1908	69459	5	277850	309	2	374	0
+400000	335452	335294	110605	18633	91039	337092	289487	64404	1677	60570	0	245403	1176	2	316	0
+sfnt-stream: client: TX rate is 83% of target; stopping
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:01:40 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593494620
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2312
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25200	25200	4832867	4569	5237192	19235913	10231027	3041253	1008	3	0	11	99	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:01:48 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495460
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2323
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25206	25206	4830219	255262	5258970	15281263	9281210	2940421	1008	4	0	11	100	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:01:56 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496560
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2363
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25006	25006	4939495	233739	5236943	19241200	15240782	3195763	1000	3	0	11	98	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:02:04 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496100
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2350
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25105	25105	4744040	207093	5206415	12219703	9221051	2894875	1004	3	0	11	100	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# date: Wed Aug  3 18:02:12 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications Device 0a03 (rev 02)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth4: driver: sfc
+# eth4: version: 4.8.2.1004
+# eth4: bus-info: 0000:04:00.0
+# eth5: driver: sfc
+# eth5: version: 4.8.2.1004
+# eth5: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593494590
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2291
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25174	25174	4754073	238354	4264382	10248111	9259629	2879522	1006	4	0	11	100	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping

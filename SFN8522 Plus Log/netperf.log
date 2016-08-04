@@ -1,0 +1,181 @@
+max_times=5
+netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    64557.36   
+16384  87380 
+netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    68883.40   
+16384  87380 
+netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    67980.57   
+16384  87380 
+netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    64910.82   
+16384  87380 
+netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    64559.16   
+16384  87380 
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    231825.53   
+16384  87380 
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    232209.15   
+16384  87380 
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    229732.84   
+16384  87380 
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    233085.41   
+16384  87380 
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  32       32      10.00    232333.75   
+16384  87380 
+netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    82381.19   
+124928 124928
+netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    83031.09   
+124928 124928
+netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    73501.56   
+124928 124928
+netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    82800.41   
+124928 124928
+netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    74127.36   
+124928 124928
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    255578.07   
+124928 124928
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    255249.37   
+124928 124928
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    254135.09   
+124928 124928
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    255661.48   
+124928 124928
+onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+MIGRATED UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 192.168.6.11 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+124928 124928 32       32      10.00    255654.22   
+124928 124928
