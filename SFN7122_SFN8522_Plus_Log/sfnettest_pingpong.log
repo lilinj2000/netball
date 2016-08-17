@@ -1,0 +1,1271 @@
+max_times=5
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:20:34 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496590
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6555	4954	6530	382076	7440	1248	759000
+	2	6544	5017	6516	379919	7409	1244	760000
+	4	6538	5149	6508	378144	7382	1241	761000
+	8	6551	4966	6520	378287	7425	1241	759000
+	16	6557	4920	6529	378776	7395	1244	758000
+	32	6548	5051	6516	411158	7382	1260	760000
+	64	6649	5151	6615	380324	7654	1256	748000
+	128	6988	5652	6950	375832	8019	1268	712000
+	256	8261	6910	8178	380205	9707	1389	603000
+	512	8447	7173	8343	379296	9866	1405	590000
+	1024	9066	8308	8928	374599	10328	1453	550000
+	2048	11564	10543	11578	385222	13463	1652	431000
+	4096	13524	12333	13463	385752	15126	1750	369000
+	8192	18499	17563	18360	389382	20547	2217	270000
+	16384	26748	25043	26619	741301	28917	2979	187000
+	32768	41588	39855	41394	416182	44152	3124	120000
+	65536	74551	69834	74075	438094	80020	4334	67000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:23:31 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496110
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	7503	5302	7453	380922	9821	1396	663000
+	2	7515	5326	7463	376229	9879	1394	662000
+	4	7504	5306	7454	374725	9806	1384	663000
+	8	7509	5247	7452	375380	9979	1410	662000
+	16	7518	5240	7467	379589	9799	1394	661000
+	32	7527	5300	7475	379887	9821	1390	661000
+	64	7662	5231	7606	378346	9943	1397	649000
+	128	8041	5378	7986	377266	9435	1386	619000
+	256	9372	7037	9267	376164	10826	1507	531000
+	512	9581	7523	9454	377288	11139	1527	520000
+	1024	10205	8621	10034	379702	11767	1578	488000
+	2048	13103	11383	13125	378600	15248	1809	381000
+	4096	15094	13844	14982	375498	17062	1878	330000
+	8192	20452	18510	20297	377430	22608	2184	244000
+	16384	32122	29497	31787	746057	41776	3660	156000
+	32768	53710	49032	52776	389940	68444	4518	93000
+	65536	94390	89421	93751	419048	106616	4955	53000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:26:28 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593498100
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6894	5315	6809	377916	8988	1345	721000
+	2	6911	5187	6805	379036	10528	1372	720000
+	4	6943	5327	6863	376347	9562	1351	716000
+	8	6878	5262	6791	374250	8925	1326	723000
+	16	6892	5182	6815	378876	8727	1324	722000
+	32	6933	5389	6874	379950	8447	1317	717000
+	64	7023	5639	6955	376776	8612	1321	708000
+	128	7519	6062	7397	375339	11860	1475	662000
+	256	9315	7786	9162	382339	12818	1603	535000
+	512	9425	7966	9258	381793	12832	1598	529000
+	1024	10057	8873	9880	380337	13999	1662	496000
+	2048	13194	11407	12881	378498	18467	2116	378000
+	4096	14756	13486	14593	381369	18777	1949	338000
+	8192	20855	18613	20276	385916	27831	3017	240000
+	16384	30896	27246	29999	632315	43782	4427	162000
+	32768	48342	43821	47220	407532	67666	6244	104000
+	65536	85315	78723	83791	445203	121734	8396	59000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:29:25 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593493790
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	8012	5579	7845	401767	12356	1569	621000
+	2	8014	5601	7850	376805	12332	1557	621000
+	4	8009	5608	7857	375975	12239	1540	621000
+	8	7975	5590	7860	372710	11649	1499	624000
+	16	8016	5545	7876	379128	12141	1527	621000
+	32	8014	5565	7878	378247	12010	1519	621000
+	64	8091	5636	7972	377203	11300	1491	615000
+	128	8449	5881	8364	376687	10457	1451	589000
+	256	10208	7588	10085	374559	12428	1613	488000
+	512	10373	7781	10232	375383	12558	1630	480000
+	1024	11010	8944	10845	377569	13269	1678	453000
+	2048	14376	12734	14248	413950	19300	2004	347000
+	4096	16028	14806	15885	388653	18540	1979	311000
+	8192	22613	20080	22441	382971	27918	2404	221000
+	16384	36216	31981	35107	612591	70608	6253	138000
+	32768	61797	54060	58713	406259	102148	10723	81000
+	65536	107972	97664	106704	453079	128453	6391	47000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:32:22 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593497150
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6669	5254	6611	382312	7278	1187	746000
+	2	6663	5168	6605	375956	7261	1237	747000
+	4	6674	5210	6614	374419	7318	1240	745000
+	8	6676	5152	6615	376078	7325	1242	745000
+	16	6679	5697	6615	375391	7393	1241	745000
+	32	6705	5312	6640	376305	7501	1243	742000
+	64	6820	5534	6753	378333	7494	1252	730000
+	128	7064	5739	7031	379152	7705	1268	704000
+	256	8336	6968	8264	376798	9561	1395	597000
+	512	8540	7851	8438	379402	9827	1412	583000
+	1024	9162	8446	9023	379952	10505	1463	544000
+	2048	11571	10578	11568	334971	13624	1564	431000
+	4096	13532	12849	13477	382722	14920	1733	369000
+	8192	18462	17631	18317	381832	20527	2060	271000
+	16384	26611	25198	26488	633466	28758	2825	188000
+	32768	41710	40205	41527	404643	43876	3011	120000
+	65536	74631	69868	74131	436128	80461	4483	67000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:35:19 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593494470
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2307	2105	2302	330650	2659	749	1000000
+	2	2311	2105	2305	378340	2660	804	1000000
+	4	2314	2107	2308	323775	2664	745	1000000
+	8	2314	2108	2308	373514	2663	802	1000000
+	16	2320	2117	2314	324879	2670	674	1000000
+	32	2341	2133	2334	374114	2691	735	1000000
+	64	2431	2216	2423	324493	2789	747	1000000
+	128	2531	2324	2522	374110	2892	803	1000000
+	256	2673	2470	2663	325012	3049	751	1000000
+	512	2839	2632	2814	375052	3337	874	1000000
+	1024	3467	3329	3419	375735	3953	899	1000000
+	2048	4985	4710	4946	380335	5593	1089	998000
+	4096	6890	6617	6846	377628	7801	1268	723000
+	8192	10890	10509	10789	381118	11810	1587	458000
+	16384	18653	18022	18524	379976	19947	2064	268000
+	32768	32412	31898	32284	404154	33776	2668	154000
+	65536	60635	59984	60504	421221	61533	3525	83000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:37:23 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593494010
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2308	2107	2304	380262	2659	779	1000000
+	2	2314	2102	2305	325646	2668	787	1000000
+	4	2314	2104	2308	375483	2660	771	1000000
+	8	2315	2114	2308	325753	2660	780	1000000
+	16	2324	2121	2316	375236	2675	706	1000000
+	32	2342	2140	2335	324791	2687	710	1000000
+	64	2428	2230	2420	373582	2778	773	1000000
+	128	2540	2321	2530	325781	2901	874	1000000
+	256	2676	2467	2664	375257	3063	776	1000000
+	512	2840	2630	2815	327446	3324	850	1000000
+	1024	3468	3322	3418	375440	4046	944	1000000
+	2048	4971	4703	4928	381180	5603	1091	1000000
+	4096	6880	6617	6838	380657	7594	1265	725000
+	8192	10880	10487	10777	390671	11846	1603	459000
+	16384	18637	17987	18512	387558	19803	2136	268000
+	32768	32395	31897	32264	388191	33739	2668	155000
+	65536	60631	59977	60484	434863	62196	3592	83000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:39:27 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496910
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2299	2101	2295	334745	2657	787	1000000
+	2	2304	2105	2298	375183	2658	773	1000000
+	4	2306	2097	2300	326267	2658	783	1000000
+	8	2306	2090	2300	373970	2659	699	1000000
+	16	2314	2110	2308	325384	2668	748	1000000
+	32	2334	2127	2327	375527	2690	802	1000000
+	64	2428	2230	2419	325970	2791	752	1000000
+	128	2533	2319	2522	375002	2913	813	1000000
+	256	2671	2443	2657	325800	3065	842	1000000
+	512	2834	2625	2809	376187	3284	843	1000000
+	1024	3468	3330	3418	328746	4043	915	1000000
+	2048	4977	4711	4936	375541	5583	1082	1000000
+	4096	6884	6623	6839	377010	7727	1261	725000
+	8192	10887	10498	10784	383026	11834	1576	459000
+	16384	18642	17988	18521	381913	19876	2047	268000
+	32768	32397	31908	32272	399809	33798	2606	155000
+	65536	60632	59995	60482	432488	62182	3459	83000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:41:31 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495780
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2301	2105	2297	374799	2652	738	1000000
+	2	2305	2105	2299	323516	2653	674	1000000
+	4	2307	2105	2301	324406	2655	709	1000000
+	8	2307	2099	2301	374841	2653	769	1000000
+	16	2316	2105	2309	325053	2655	780	1000000
+	32	2335	2134	2328	375229	2684	770	1000000
+	64	2422	2218	2413	325395	2780	781	1000000
+	128	2531	2313	2522	375428	2898	773	1000000
+	256	2668	2451	2656	324784	3052	788	1000000
+	512	2833	2624	2809	326246	3307	755	1000000
+	1024	3463	3313	3412	455384	4059	962	1000000
+	2048	4981	4702	4943	380385	5576	1086	1000000
+	4096	6884	6626	6841	379283	7666	1263	725000
+	8192	10885	10496	10784	377441	11840	1577	459000
+	16384	18647	18000	18526	384434	19840	2099	268000
+	32768	32401	31907	32276	390616	33760	2659	155000
+	65536	60632	60003	60493	412572	61884	3466	83000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# date: Fri Aug 12 18:43:34 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495750
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2295	2098	2292	388946	2650	722	1000000
+	2	2299	2092	2293	324531	2652	673	1000000
+	4	2302	2099	2296	373813	2654	733	1000000
+	8	2302	2102	2296	325953	2656	747	1000000
+	16	2310	2107	2304	377015	2663	800	1000000
+	32	2329	2124	2323	324427	2685	673	1000000
+	64	2422	2220	2415	374460	2784	801	1000000
+	128	2526	2297	2517	326037	2900	752	1000000
+	256	2664	2438	2653	375609	3052	807	1000000
+	512	2827	2611	2803	325836	3285	817	1000000
+	1024	3458	3312	3408	377223	3942	927	1000000
+	2048	4979	4712	4935	374881	5579	1085	1000000
+	4096	6883	6628	6841	379770	7650	1259	725000
+	8192	10884	10485	10780	378936	11905	1590	459000
+	16384	18644	17989	18518	383985	19867	2070	268000
+	32768	32415	31910	32287	402851	33775	2669	155000
+	65536	60634	60002	60484	419920	62114	3503	83000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 18:45:38 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496380
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6071	4255	5950	375886	9444	1336	818000
+	1	6042	4243	5937	375000	7324	1270	822000
+	2	6123	4550	6030	373914	7368	1273	811000
+	4	6135	4395	6040	376649	7484	1280	809000
+	8	6047	4248	5943	378088	7321	1273	821000
+	16	6031	4082	5924	378599	7291	1270	823000
+	32	6101	4169	6007	377674	7348	1275	814000
+	64	6148	4203	6056	374048	7407	1276	808000
+	128	6198	4837	6073	377342	7538	1290	801000
+	256	7493	6271	7380	378580	8725	1383	664000
+	512	7663	6811	7544	375369	8942	1393	649000
+	1024	8256	7209	8146	378442	9482	1437	603000
+	1472	8751	7293	8642	382829	10025	1465	569000
+	1473	15246	13574	14974	410501	21593	3390	327000
+	2048	15096	13940	15061	389182	17055	1974	331000
+	4096	17552	16145	17489	387791	19790	2118	284000
+	8192	24812	22864	24680	401048	27941	2614	201000
+	16384	42202	37983	40947	411352	58909	5279	119000
+	32768	74803	67159	73400	475098	99830	6745	67000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 18:48:55 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496270
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6116	4313	6015	378328	7954	1281	812000
+	1	6168	4534	6080	377540	7836	1270	805000
+	2	6121	4863	6041	373996	7267	1240	811000
+	4	6125	4401	6046	378746	7277	1241	811000
+	8	6088	4435	5999	377799	7204	1238	816000
+	16	6086	4299	5992	375874	7274	1239	816000
+	32	6164	4715	6078	378497	7429	1251	806000
+	64	6200	4350	6091	375745	8197	1301	801000
+	128	6286	4857	6190	374225	7521	1264	790000
+	256	7576	5791	7481	372885	8730	1349	657000
+	512	7728	5984	7627	373130	8921	1362	644000
+	1024	8285	7440	8188	374612	9435	1406	601000
+	1472	8774	7769	8677	374298	9937	1438	567000
+	1473	15213	13536	14917	411538	22047	3615	328000
+	2048	15058	13805	15041	393480	16840	1948	331000
+	4096	17527	15857	17527	383067	19563	1993	285000
+	8192	24862	22848	24797	397650	27650	2524	201000
+	16384	41654	37197	40240	408448	58732	5601	120000
+	32768	74630	67092	73200	454982	99596	6766	67000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 18:52:13 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593497230
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	5576	3947	5553	380510	6331	1158	891000
+	1	5623	3887	5604	379605	6391	1159	883000
+	2	5611	4116	5584	374739	6384	1159	885000
+	4	5588	4031	5528	374050	6353	1152	889000
+	8	5601	4066	5567	374003	6375	1157	887000
+	16	5633	3829	5615	372861	6392	1179	882000
+	32	5632	4035	5594	373708	6400	1159	882000
+	64	5683	4091	5659	373903	6452	1164	874000
+	128	5811	5025	5786	373660	6574	1176	855000
+	256	6821	6065	6774	379709	7756	1252	729000
+	512	6997	5729	6946	375854	7980	1277	711000
+	1024	7551	5880	7490	381150	8522	1325	659000
+	1472	8124	6815	8052	377648	9037	1364	613000
+	1473	14378	13195	14236	424395	16217	2111	347000
+	2048	14427	13509	14315	396504	15973	1854	346000
+	4096	16787	15688	16725	393891	18505	2002	297000
+	8192	24130	22077	24060	400203	26146	2424	207000
+	16384	40038	36159	39070	408370	57241	4970	125000
+	32768	69571	64562	68391	472006	87465	6175	72000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 18:55:31 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495540
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6106	4376	6016	376562	7913	1291	814000
+	1	6134	4280	6066	376440	7383	1260	810000
+	2	6133	4239	6064	374085	7370	1275	810000
+	4	6149	4700	6059	377478	8226	1296	808000
+	8	6145	4278	6081	377591	7389	1264	808000
+	16	6106	4495	6031	379680	7373	1261	814000
+	32	6137	4429	6058	374829	7418	1258	810000
+	64	6200	4756	6131	375536	7468	1265	801000
+	128	6295	5339	6208	373692	7613	1272	789000
+	256	7548	6181	7433	379330	8892	1383	659000
+	512	7701	6868	7589	375064	8905	1385	646000
+	1024	8285	7424	8174	378585	9560	1433	601000
+	1472	8774	7883	8667	373767	9960	1461	567000
+	1473	15192	13606	14927	413373	20842	3584	329000
+	2048	15111	13914	15081	391494	17464	1977	330000
+	4096	17517	16000	17436	394809	20143	2174	285000
+	8192	25230	22492	24655	390019	31863	3259	198000
+	16384	41782	37052	40330	410002	62262	6232	120000
+	32768	75164	66982	73461	443742	99816	7072	67000
+sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 18:58:48 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593494530
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	5544	3988	5486	381591	6273	1151	896000
+	1	5583	3874	5535	373430	6307	1153	890000
+	2	5587	3812	5536	376108	6315	1153	889000
+	4	5589	3829	5546	376601	6314	1153	889000
+	8	5598	3893	5571	374540	6323	1151	887000
+	16	5599	4139	5572	374011	6313	1153	887000
+	32	5652	4052	5634	377003	6370	1159	879000
+	64	5665	4101	5623	377860	6415	1166	877000
+	128	5806	4295	5786	374117	6598	1182	856000
+	256	6820	5901	6775	375616	7446	1246	729000
+	512	6983	5976	6940	375958	7612	1253	712000
+	1024	7564	6975	7499	376509	8185	1306	658000
+	1472	8104	7517	8038	373678	8729	1349	614000
+	1473	14467	12995	14328	403410	16366	2105	345000
+	2048	14442	13430	14323	386119	15973	1857	346000
+	4096	16747	15627	16709	408650	18297	2013	298000
+	8192	24112	22114	24020	391073	26198	2392	207000
+	16384	40097	36736	39251	425964	57136	4703	125000
+	32768	69628	64376	68361	451990	87387	6233	72000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 19:02:06 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496250
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	2069	1905	2087	325195	2230	583	1000000
+	1	2074	1902	2089	324913	2228	770	1000000
+	2	2073	1903	2088	376195	2227	691	1000000
+	4	2072	1898	2088	324765	2227	703	1000000
+	8	2073	1904	2089	375093	2229	762	1000000
+	16	2073	1906	2089	324107	2229	683	1000000
+	32	2124	1952	2142	374926	2299	692	1000000
+	64	2153	1984	2170	326259	2331	741	1000000
+	128	2281	2102	2296	373923	2483	797	1000000
+	256	2453	2265	2465	325679	2679	744	1000000
+	512	2627	2420	2621	375453	2909	801	1000000
+	1024	3225	3110	3198	326840	3545	901	1000000
+	1472	3812	3683	3785	374574	4224	923	1000000
+	1473	12553	11338	12442	402705	14172	1848	398000
+	2048	12740	11940	12637	399107	14278	1768	392000
+	4096	15149	14104	15097	392748	16942	1928	330000
+	8192	23038	21102	22951	389248	25040	2367	217000
+	16384	39342	35805	38601	416205	56464	4531	127000
+	32768	70450	64891	68896	470377	88343	6509	71000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 19:04:16 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495460
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	2075	1908	2091	328293	2240	671	1000000
+	1	2078	1909	2093	324924	2234	703	1000000
+	2	2078	1904	2092	376954	2235	695	1000000
+	4	2077	1904	2092	326916	2232	774	1000000
+	8	2078	1905	2093	374932	2237	694	1000000
+	16	2078	1913	2093	324887	2235	668	1000000
+	32	2132	1963	2148	374196	2305	796	1000000
+	64	2161	1979	2177	324467	2342	670	1000000
+	128	2282	2091	2296	374472	2486	795	1000000
+	256	2460	2276	2469	325389	2722	752	1000000
+	512	2632	2412	2628	376431	2919	864	1000000
+	1024	3227	3110	3200	326230	3561	815	1000000
+	1472	3817	3676	3791	376158	4149	978	1000000
+	1473	12579	11366	12463	408658	14164	1859	397000
+	2048	12782	11909	12681	388791	14196	1773	391000
+	4096	15241	14141	15208	382817	16732	1894	328000
+	8192	22878	20901	22769	393417	24688	2337	219000
+	16384	39300	35971	38406	427569	56636	4823	128000
+	32768	70877	65371	69329	432084	88399	6515	71000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 19:06:27 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593493700
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	2077	1893	2093	333029	2243	674	1000000
+	1	2081	1911	2096	374996	2239	728	1000000
+	2	2080	1909	2095	324445	2240	668	1000000
+	4	2080	1911	2095	324354	2240	668	1000000
+	8	2081	1910	2095	375374	2245	730	1000000
+	16	2081	1903	2096	324871	2241	669	1000000
+	32	2133	1962	2148	373940	2313	730	1000000
+	64	2162	1985	2178	324822	2346	671	1000000
+	128	2290	2090	2304	375565	2499	802	1000000
+	256	2462	2258	2472	325473	2714	751	1000000
+	512	2637	2431	2633	375764	2923	803	1000000
+	1024	3230	3116	3203	333991	3523	879	1000000
+	1472	3817	3686	3794	381570	4111	979	1000000
+	1473	12622	11671	12511	405618	14255	1854	396000
+	2048	12836	11875	12744	400325	14180	1780	389000
+	4096	15232	14217	15181	387063	16744	1903	328000
+	8192	23269	21417	23156	402556	25474	2417	215000
+	16384	39929	36431	38856	408969	57035	5131	126000
+	32768	70292	65649	69032	439372	88138	6087	72000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 19:08:38 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593495840
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	2077	1912	2093	328852	2243	673	1000000
+	1	2081	1908	2095	375232	2241	698	1000000
+	2	2080	1909	2095	326096	2239	705	1000000
+	4	2079	1913	2094	326343	2238	670	1000000
+	8	2082	1909	2096	378246	2240	733	1000000
+	16	2081	1909	2095	325641	2239	671	1000000
+	32	2136	1961	2151	375844	2310	732	1000000
+	64	2166	1989	2180	325637	2350	749	1000000
+	128	2285	2113	2298	375341	2495	702	1000000
+	256	2461	2253	2471	324947	2691	782	1000000
+	512	2636	2415	2632	375779	2915	789	1000000
+	1024	3232	3119	3205	328014	3520	880	1000000
+	1472	3817	3692	3792	378800	4117	924	1000000
+	1473	12613	11574	12484	411879	14257	1861	396000
+	2048	12723	11897	12611	387866	14320	1768	393000
+	4096	15195	14169	15145	393193	16869	1934	329000
+	8192	22956	21180	22792	399776	24898	2344	218000
+	16384	39632	36175	38749	414270	56841	4798	126000
+	32768	70640	65337	69083	422962	88543	6427	71000
+onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# date: Fri Aug 12 19:10:48 CST 2016
+# uname: Linux ZEUSE-CS2 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+# lspci: 03:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.1 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.2 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 03:00.3 Ethernet controller: Broadcom Corporation NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+# lspci: 04:00.0 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# lspci: 04:00.1 Ethernet controller: Solarflare Communications SFC9120 (rev 01)
+# eth0: driver: tg3
+# eth0: version: 3.132
+# eth0: bus-info: 0000:03:00.0
+# eth1: driver: tg3
+# eth1: version: 3.132
+# eth1: bus-info: 0000:03:00.1
+# eth2: driver: tg3
+# eth2: version: 3.132
+# eth2: bus-info: 0000:03:00.2
+# eth3: driver: tg3
+# eth3: version: 3.132
+# eth3: bus-info: 0000:03:00.3
+# eth6: driver: sfc
+# eth6: version: 4.8.2.1004
+# eth6: bus-info: 0000:04:00.0
+# eth7: driver: sfc
+# eth7: version: 4.8.2.1004
+# eth7: bus-info: 0000:04:00.1
+# virbr0: driver: bridge
+# virbr0: version: 2.3
+# virbr0: bus-info: N/A
+# virbr0-nic: driver: tun
+# virbr0-nic: version: 1.6
+# virbr0-nic: bus-info: tap
+# ram: MemTotal:       32904224 kB
+# cmdline: sfnettest-1.5.0/src/sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.6.11
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 2593496130
+# LD_PRELOAD=libonload.so
+# onload_version=201606
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	2069	1897	2085	328648	2234	706	1000000
+	1	2071	1895	2086	374679	2230	694	1000000
+	2	2072	1904	2086	324353	2227	703	1000000
+	4	2071	1895	2086	373267	2227	692	1000000
+	8	2072	1902	2087	322880	2232	700	1000000
+	16	2073	1901	2087	323742	2236	670	1000000
+	32	2125	1947	2140	372830	2304	766	1000000
+	64	2153	1982	2169	323630	2336	704	1000000
+	128	2285	2096	2299	391305	2493	790	1000000
+	256	2452	2253	2463	324616	2696	777	1000000
+	512	2626	2437	2620	374574	2925	769	1000000
+	1024	3221	3100	3193	325435	3573	844	1000000
+	1472	3812	3675	3786	377735	4244	976	1000000
+	1473	12562	11525	12449	407982	14251	1848	398000
+	2048	12731	11881	12620	394033	14349	1770	392000
+	4096	15150	14102	15104	387994	16905	1915	330000
+	8192	23030	20973	22987	385865	25068	2369	217000
+	16384	39340	36151	38484	401875	56659	4710	127000
+	32768	70080	65070	69104	469624	87429	5805	72000
