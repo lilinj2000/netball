@@ -3,7 +3,7 @@
 import re
 import sys
 
-file_name = "sfnettest_pingpong.log"
+file_name = "x2522plus_sfnettest_pingpong_20180824.log"
 
 if len(sys.argv)>1:
     file_name = sys.argv[1]

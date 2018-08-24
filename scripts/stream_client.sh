@@ -1,6 +1,6 @@
 #!/bin/sh
 
-log_file=sfnettest_stream.log
+log_file=x2522plus_sfnettest_stream_20180824_001.log
 max_times=1
 
 export EF_STACK_PER_THREAD=1
@@ -8,8 +8,8 @@ export EF_STACK_PER_THREAD=1
 echo "max_times=$max_times" | tee $log_file
 
 cmds="
-sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
-onload --profile=latency taskset -c 1 sfnettest-1.5.0/src/sfnt-stream --affinity 1,1 udp 192.168.6.11
+./sfnt-stream --affinity 1,1 udp 192.168.230.143
+onload --profile=latency taskset -c 1 ./sfnt-stream --affinity 1,1 udp 192.168.230.143
 "
 tmp_ifs=$IFS
 IFS=$'\n'

@@ -1,0 +1,84 @@
+max_times=1
+./sfnt-stream --affinity 1,1 udp 192.168.230.143
+# date: Fri Aug 24 21:18:53 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-stream --affinity 1,1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995164980
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=6387
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	50000	50000	7440	5404	6580	19517	14687	1740	2000	264	0	8787	0	0	0	0
+100000	100003	100003	6773	5847	6792	7048	6984	152	2000	5	0	15	0	0	0	0
+150000	149340	149340	185012	8016	150316	664023	587821	148625	1991	172942	15	661645	13	0	0	0
+200000	149353	149353	182447	7988	138741	660044	604053	151328	1493	128968	0	482392	850	0	0	0
+sfnt-stream: client: TX rate is 74% of target; stopping
+onload --profile=latency taskset -c 1 ./sfnt-stream --affinity 1,1 udp 192.168.230.143
+# date: Fri Aug 24 21:19:07 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-stream --affinity 1,1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165280
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_STACK_PER_THREAD=1
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+# msgsize=24
+# return_latency=2196
+#
+#mps	mps	mps	latency	latency	latency	latency	latency	latency	latency	sendjit	sendjit	sendjit	sendjit	gaps	gaps	gaps
+#target	send	recv	mean	min	median	max	%ile	stddev	samples	mean	min	max	behind	n_gaps	n_drops	n_ooo
+50000	25174	25174	6598135	269238	6285303	24299130	18300849	4227363	1006	9	0	3773	75	0	0	0
+sfnt-stream: client: TX rate is 50% of target; stopping

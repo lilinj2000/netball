@@ -1,15 +1,15 @@
 #!/bin/sh
 
-log_file=netperf.log
-max_times=3
+log_file=x2522plus_netperf_20180824_002.log
+max_times=5
 
 echo "max_times=$max_times" | tee $log_file
 
 cmds="
-netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
-onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t TCP_RR -H 192.168.6.11 -l 10 -- -r 32
-netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
-onload --profile=latency taskset -c 1 netperf-2.7.0/src/netperf -t UDP_RR -H 192.168.6.11 -l 10 -- -r 32
+./netperf -t TCP_RR -H 192.168.230.143 -l 10 -- -r 32
+onload --profile=latency taskset -c 1 ./netperf -t TCP_RR -H 192.168.230.143 -l 10 -- -r 32
+./netperf -t UDP_RR -H 192.168.230.143 -l 10 -- -r 32
+onload --profile=latency taskset -c 1 ./netperf -t UDP_RR -H 192.168.230.143 -l 10 -- -r 32
 "
 tmp_ifs=$IFS
 IFS=$'\n'

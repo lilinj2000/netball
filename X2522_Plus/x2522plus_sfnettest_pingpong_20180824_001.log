@@ -1,0 +1,1051 @@
+max_times=5
+./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:14:43 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995163730
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6030	4999	5939	128669	7646	403	825000
+	2	6050	5453	5957	129605	7618	396	822000
+	4	6133	5626	6046	119554	7726	392	811000
+	8	6080	5557	5984	124297	7630	400	818000
+	16	6095	5614	5999	118332	7597	393	816000
+	32	6155	5639	6023	127050	7599	437	808000
+	64	6194	5627	6096	124855	7585	389	803000
+	128	6367	5775	6266	120781	7584	382	781000
+	256	7356	6892	7256	122739	8565	392	677000
+	512	7669	7236	7577	127985	8858	382	649000
+	1024	8354	7835	8299	126054	9349	342	596000
+	2048	14446	11626	14116	132308	18330	1601	344000
+	4096	17624	15021	17540	134615	20611	780	283000
+	8192	21164	18361	21061	135545	25443	960	236000
+	16384	30632	27049	30539	146876	34627	1395	163000
+	32768	46859	40921	47002	164696	49801	1242	107000
+	65536	79131	72761	78776	185034	83326	1657	64000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:17:41 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165330
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6048	4925	5959	125075	7547	398	822000
+	2	6065	5452	5971	119657	7514	395	820000
+	4	6148	5607	6055	122385	7599	408	809000
+	8	6092	5548	5995	121304	7545	400	817000
+	16	6102	5512	6006	124542	7540	398	815000
+	32	6119	5554	6026	120539	7553	374	813000
+	64	6231	5570	6128	120314	7559	397	798000
+	128	6415	5861	6312	124350	7583	388	776000
+	256	7369	6617	7277	120920	8648	390	676000
+	512	7694	7205	7609	121208	8880	371	647000
+	1024	8132	7688	8078	124001	9772	354	613000
+	2048	14230	11506	14062	135276	18204	1712	346000
+	4096	17668	14970	17578	133175	21148	834	283000
+	8192	21151	18287	21070	136694	25520	1041	235000
+	16384	30323	26763	30205	143067	34400	1463	165000
+	32768	46973	40946	47012	162552	49803	1111	107000
+	65536	79481	73891	79212	189236	83665	1751	63000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:20:39 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995166340
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6020	5022	5912	115095	7592	411	826000
+	2	6051	5501	5933	122357	7564	419	822000
+	4	6133	5544	6014	131355	7673	427	811000
+	8	6070	5467	5955	125664	7584	418	820000
+	16	6097	5479	5968	130570	7551	431	816000
+	32	6112	5579	5987	131086	7588	428	814000
+	64	6211	5684	6079	118238	7622	435	801000
+	128	6318	5880	6224	124786	7657	394	787000
+	256	7335	6790	7229	127153	8661	407	679000
+	512	7674	7236	7577	122710	8890	385	649000
+	1024	8247	7717	8187	127583	9621	350	604000
+	2048	14033	11576	13982	25252	18336	1716	352000
+	4096	17651	14918	17563	137721	21198	840	283000
+	8192	21077	18342	21030	135205	25532	1088	236000
+	16384	30401	26851	30262	145030	34576	1515	164000
+	32768	46841	41083	46937	142267	49879	1185	107000
+	65536	79200	72835	78784	191782	83509	1781	64000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:23:37 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995166660
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6065	4933	5939	119271	7452	427	820000
+	2	6075	5488	5946	122044	7440	428	819000
+	4	6153	5535	6026	123194	7535	428	808000
+	8	6098	5582	5970	119113	7442	423	816000
+	16	6106	5440	5980	123911	7435	421	815000
+	32	6131	5514	6002	120545	7441	420	811000
+	64	6196	5675	6082	128059	7534	404	803000
+	128	6313	5546	6230	119268	7552	360	788000
+	256	7319	6822	7215	120757	8526	390	680000
+	512	7645	7131	7553	128465	8742	372	651000
+	1024	8246	7730	8190	119166	9422	334	604000
+	2048	13945	11533	13973	133000	18192	1718	353000
+	4096	17726	15040	17640	139170	20999	878	282000
+	8192	21139	18341	21048	138858	25471	983	236000
+	16384	30429	26938	30307	136567	34591	1495	164000
+	32768	46971	40806	47050	168311	49867	1221	107000
+	65536	79323	73402	78959	172303	83412	1713	63000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:26:35 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165660
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	6051	4980	5929	116259	7475	412	822000
+	2	6059	5429	5934	122415	7440	408	821000
+	4	6152	5501	6025	125309	7537	414	809000
+	8	6071	5453	5955	123678	7475	415	819000
+	16	6064	5536	5955	123337	7495	391	820000
+	32	6092	5484	5975	121970	7477	394	817000
+	64	6208	5672	6084	17675	7506	379	801000
+	128	6336	5688	6243	127325	7616	381	785000
+	256	7322	6816	7220	132777	8573	399	680000
+	512	7663	7198	7566	122817	8772	395	650000
+	1024	8221	7751	8179	126972	9099	327	606000
+	2048	14126	11656	14125	130540	18131	1733	347000
+	4096	17603	14605	17522	131733	20633	795	284000
+	8192	21002	18322	20904	138494	25257	945	237000
+	16384	30322	26950	30187	133775	34519	1458	165000
+	32768	46933	40917	46950	143941	49742	1054	107000
+	65536	79156	73059	79059	200988	83343	1673	64000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:29:33 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165010
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2205	2004	2178	10890	2471	138	1000000
+	2	2228	2024	2202	122308	2487	207	1000000
+	4	2225	2014	2199	9587	2486	130	1000000
+	8	2230	2025	2204	124080	2492	208	1000000
+	16	2239	2029	2213	9263	2507	135	1000000
+	32	2261	2041	2234	117351	2529	206	1000000
+	64	2352	2181	2327	9263	2642	140	1000000
+	128	2487	2297	2456	114399	2803	212	1000000
+	256	2706	2483	2676	10240	3058	160	1000000
+	512	3018	2877	2985	116030	3381	221	1000000
+	1024	3755	3621	3721	119958	4129	227	1000000
+	2048	6004	5771	5955	130395	7022	281	830000
+	4096	8042	7771	7998	125195	9484	364	620000
+	8192	12073	11766	12040	126813	13202	345	414000
+	16384	19662	19286	19623	135660	20867	411	254000
+	32768	33725	33379	33682	147474	35136	460	148000
+	65536	61926	61487	61868	165170	63724	556	81000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:31:37 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995166070
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2198	2009	2169	124140	2462	230	1000000
+	2	2219	2015	2193	12873	2480	130	1000000
+	4	2214	2024	2188	121286	2473	203	1000000
+	8	2221	2038	2195	8571	2477	128	1000000
+	16	2229	2034	2202	117198	2494	205	1000000
+	32	2252	2060	2226	9113	2516	135	1000000
+	64	2342	2132	2318	11757	2623	140	1000000
+	128	2479	2269	2448	15381	2785	148	1000000
+	256	2700	2509	2670	121036	3046	226	1000000
+	512	3018	2878	2986	18644	3368	154	1000000
+	1024	3760	3631	3726	119098	4170	237	1000000
+	2048	6000	5679	5951	116862	7037	274	830000
+	4096	8032	7775	7991	117951	9355	301	621000
+	8192	12074	11749	12040	128024	13206	340	413000
+	16384	19664	19260	19627	138713	20933	433	254000
+	32768	33712	33385	33670	135131	35157	454	149000
+	65536	61932	61518	61874	168942	63824	620	81000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:33:41 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995164560
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2199	2015	2171	124144	2466	219	1000000
+	2	2221	2006	2194	14429	2486	132	1000000
+	4	2217	1995	2190	122967	2479	207	1000000
+	8	2222	2031	2196	9700	2486	130	1000000
+	16	2232	2044	2205	116542	2501	206	1000000
+	32	2254	2044	2227	9686	2524	135	1000000
+	64	2344	2148	2319	126367	2633	213	1000000
+	128	2476	2261	2448	9191	2788	146	1000000
+	256	2700	2466	2669	122551	3067	228	1000000
+	512	3017	2866	2985	10649	3387	153	1000000
+	1024	3751	3611	3718	118415	4138	220	1000000
+	2048	5999	5659	5949	119960	7013	275	831000
+	4096	8031	7763	7990	121688	9337	301	621000
+	8192	12080	11755	12045	115286	13274	327	413000
+	16384	19667	19291	19629	138096	20911	402	254000
+	32768	33717	33365	33674	138092	35144	451	149000
+	65536	61933	61516	61874	165700	63877	584	81000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:35:46 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165090
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2197	1995	2169	15646	2465	163	1000000
+	2	2218	1998	2192	121727	2481	205	1000000
+	4	2215	2010	2188	8643	2481	129	1000000
+	8	2220	2021	2194	117339	2486	203	1000000
+	16	2228	2024	2201	12400	2498	134	1000000
+	32	2251	2053	2224	9813	2523	137	1000000
+	64	2341	2165	2315	125530	2628	214	1000000
+	128	2476	2265	2446	10806	2786	146	1000000
+	256	2701	2497	2670	116771	3055	223	1000000
+	512	3019	2868	2987	122609	3370	223	1000000
+	1024	3755	3598	3722	10618	4126	166	1000000
+	2048	6000	5672	5951	120172	6990	275	831000
+	4096	8031	7772	7990	120529	9342	302	621000
+	8192	12071	11773	12038	122235	13148	326	414000
+	16384	19672	19268	19634	128027	20929	395	254000
+	32768	33715	33382	33673	136726	35156	444	149000
+	65536	61922	61505	61865	146699	63734	510	81000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# date: Fri Aug 24 19:37:50 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 tcp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165450
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	1	2212	1987	2174	16236	2500	300	1000000
+	2	2222	2007	2196	120252	2485	203	1000000
+	4	2219	2031	2193	12743	2484	128	1000000
+	8	2225	2007	2199	120240	2489	203	1000000
+	16	2233	2020	2206	9189	2506	133	1000000
+	32	2257	2071	2229	120832	2526	232	1000000
+	64	2348	2139	2324	8585	2632	135	1000000
+	128	2483	2283	2454	114812	2789	213	1000000
+	256	2707	2491	2677	10369	3051	156	1000000
+	512	3020	2863	2988	116701	3365	215	1000000
+	1024	3762	3622	3727	120355	4165	238	1000000
+	2048	6005	5664	5955	123635	7021	276	830000
+	4096	8046	7778	8006	117592	9267	289	620000
+	8192	12087	11777	12051	127692	13337	339	413000
+	16384	19669	19300	19629	121026	20910	385	254000
+	32768	33713	33375	33671	147529	35115	453	149000
+	65536	61933	61527	61877	145376	63766	506	81000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:39:54 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165900
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6459	5713	6448	210049	7419	363	770000
+	1	6518	5761	6507	123192	7478	278	764000
+	2	6521	5851	6509	121920	7499	277	763000
+	4	6607	5821	6595	122857	7591	250	753000
+	8	6549	5949	6535	119389	7550	277	760000
+	16	6554	5906	6539	123609	7527	329	759000
+	32	6579	5738	6572	123280	7553	285	756000
+	64	6590	5790	6573	119898	7571	285	755000
+	128	6763	5824	6773	122020	7720	294	735000
+	256	7951	6746	7919	124045	8845	320	626000
+	512	8244	6875	8230	127788	9177	311	604000
+	1024	8912	7262	8884	122294	9566	277	559000
+	1472	9541	7954	9515	127001	10613	314	522000
+	1473	16410	15731	16323	134197	18045	482	304000
+	2048	16590	15971	16512	335810	18293	740	301000
+	4096	19191	18293	19089	140821	20957	519	260000
+	8192	24813	23771	24626	143882	27706	730	201000
+	16384	39054	37267	38963	162888	41801	902	128000
+	32768	68867	64959	68939	167967	73202	1698	73000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:43:12 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165300
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6473	5683	6457	124734	7542	310	769000
+	1	6548	5923	6527	123090	7624	288	760000
+	2	6552	5799	6532	121514	7630	289	760000
+	4	6652	5805	6631	130027	7740	288	748000
+	8	6588	5757	6567	123658	7622	258	755000
+	16	6591	5693	6571	121668	7628	282	755000
+	32	6618	5722	6605	123153	7697	292	752000
+	64	6618	5757	6587	121089	7718	300	752000
+	128	6812	5915	6804	123635	7839	292	730000
+	256	7987	6696	7942	127822	9089	332	623000
+	512	8254	6823	8245	125069	9387	293	603000
+	1024	8957	7249	8924	124826	9936	302	556000
+	1472	9578	7873	9540	122891	10701	325	520000
+	1473	16352	15608	16257	137384	18053	490	305000
+	2048	16639	16019	16553	1285269	18391	2364	300000
+	4096	19392	18553	19295	209116	21035	682	258000
+	8192	24897	23885	24708	138684	27768	746	201000
+	16384	39389	37657	39276	155508	42382	906	127000
+	32768	68811	65054	68899	188469	73251	1776	73000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:46:30 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995164860
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	8251	7297	8191	128562	9866	418	602000
+	1	8346	7473	8294	127878	9925	413	595000
+	2	8360	7494	8311	121523	9858	404	594000
+	4	8426	7609	8375	120311	9948	400	590000
+	8	8397	7525	8346	121469	9875	397	592000
+	16	8392	7538	8343	122396	9873	395	592000
+	32	8434	7587	8378	123919	9901	402	589000
+	64	8498	7556	8432	122512	9864	409	585000
+	128	8839	7849	8837	120901	10055	404	562000
+	256	10056	8989	10086	127961	11566	445	495000
+	512	10273	9019	10200	125215	11743	429	484000
+	1024	11147	9464	11118	121283	12386	419	446000
+	1472	11696	9840	11656	127231	13244	397	426000
+	1473	16361	15671	16277	137766	17896	470	305000
+	2048	16573	15997	16493	128279	18290	460	301000
+	4096	19197	18394	19099	136029	20874	506	260000
+	8192	24875	23833	24716	142664	27202	714	201000
+	16384	39046	37355	38946	156448	41639	861	128000
+	32768	68853	64711	68928	372295	73273	2066	73000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:49:48 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165840
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6390	5756	6383	119857	7202	267	778000
+	1	6462	5788	6456	121219	7353	269	770000
+	2	6466	5876	6460	119531	7325	269	770000
+	4	6562	5724	6557	125227	7376	272	758000
+	8	6498	5697	6493	120235	7305	266	766000
+	16	6502	5767	6494	125189	7303	267	765000
+	32	6512	5739	6488	123139	7357	329	764000
+	64	6535	5694	6480	125802	7447	287	761000
+	128	6770	5808	6758	124506	7527	268	734000
+	256	7953	6749	7922	120627	8885	311	626000
+	512	8172	6890	8114	121373	9182	309	609000
+	1024	8901	7269	8868	122027	9866	298	559000
+	1472	9490	7849	9466	127754	10510	304	525000
+	1473	16357	15587	16279	136196	17917	470	305000
+	2048	16670	16083	16612	126782	18087	419	299000
+	4096	19462	18627	19386	129040	21140	483	257000
+	8192	24757	23713	24582	141550	27052	688	202000
+	16384	38960	37166	38856	1219728	41611	3397	129000
+	32768	68559	64606	68668	179482	73101	1781	73000
+./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:53:06 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165130
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	6418	5370	6413	124319	7374	286	775000
+	1	6508	5472	6501	129921	7478	309	765000
+	2	6486	5433	6483	123404	7440	285	767000
+	4	6578	5628	6574	121492	7530	285	757000
+	8	6534	5528	6530	123497	7500	285	762000
+	16	6529	5658	6524	118672	7515	280	762000
+	32	6556	5624	6553	121205	7504	287	759000
+	64	6571	5677	6553	127055	7523	297	757000
+	128	6782	5908	6792	130776	7694	299	733000
+	256	7966	6811	7919	121135	9026	334	624000
+	512	8300	6882	8285	126360	9339	317	599000
+	1024	8945	7261	8915	126990	9851	298	556000
+	1472	9580	7959	9552	123655	10573	308	520000
+	1473	16499	15790	16414	392617	18121	837	302000
+	2048	16728	16106	16670	134144	18157	423	298000
+	4096	19390	18569	19319	134866	21014	473	258000
+	8192	24769	23779	24594	276702	27325	977	202000
+	16384	39188	37294	39092	151914	41828	896	128000
+	32768	68791	65003	68896	181629	73248	1767	73000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:56:24 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165510
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	1896	1680	1872	121206	2070	360	1000000
+	1	1884	1703	1873	8551	2024	109	1000000
+	2	1881	1700	1870	123637	2027	194	1000000
+	4	1884	1680	1873	10677	2028	109	1000000
+	8	1893	1689	1882	10505	2032	108	1000000
+	16	1888	1710	1876	114191	2033	187	1000000
+	32	1995	1801	1984	9088	2163	111	1000000
+	64	2031	1837	2019	115994	2208	194	1000000
+	128	2181	1990	2171	8853	2402	124	1000000
+	256	2382	2169	2365	118985	2698	210	1000000
+	512	2762	2606	2744	13535	3095	148	1000000
+	1024	3486	3355	3467	116230	3853	214	1000000
+	1472	4133	3998	4110	116581	4520	228	1000000
+	1473	13747	13155	13653	121957	15481	463	363000
+	2048	13952	13459	13876	137277	15796	453	358000
+	4096	16862	16009	16774	129519	18800	504	296000
+	8192	23148	21937	23058	140216	25242	607	216000
+	16384	35713	34169	35652	143737	37507	695	140000
+	32768	63640	59915	63637	173013	66978	1377	79000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 19:58:34 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165420
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	1887	1681	1866	117345	2042	332	1000000
+	1	1878	1668	1867	9698	2013	106	1000000
+	2	1874	1680	1863	8987	2011	103	1000000
+	4	1877	1678	1866	115173	2014	185	1000000
+	8	1886	1691	1875	9407	2018	104	1000000
+	16	1881	1700	1870	9690	2019	104	1000000
+	32	1987	1783	1977	11003	2145	109	1000000
+	64	2023	1839	2012	11366	2194	113	1000000
+	128	2176	1981	2166	116029	2388	199	1000000
+	256	2376	2209	2361	9885	2678	139	1000000
+	512	2758	2617	2741	115374	3082	212	1000000
+	1024	3484	3349	3464	117326	3896	218	1000000
+	1472	4128	4005	4108	12050	4482	156	1000000
+	1473	13703	13105	13613	134381	15356	465	364000
+	2048	13870	13331	13794	129850	15608	432	360000
+	4096	16836	15971	16753	133657	18636	481	297000
+	8192	23187	21857	23095	139555	25264	607	216000
+	16384	35682	33966	35546	145243	38349	851	140000
+	32768	63747	60244	63734	166977	67203	1364	79000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 20:00:43 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995166160
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	1889	1690	1866	14539	2054	296	1000000
+	1	1880	1670	1869	119724	2021	191	1000000
+	2	1877	1690	1866	11153	2020	108	1000000
+	4	1880	1686	1869	113042	2023	187	1000000
+	8	1889	1678	1878	109294	2026	153	1000000
+	16	1884	1695	1872	9418	2027	107	1000000
+	32	1990	1803	1979	118486	2159	192	1000000
+	64	2025	1836	2014	8798	2204	115	1000000
+	128	2179	1973	2168	120869	2403	203	1000000
+	256	2381	2176	2365	14174	2701	142	1000000
+	512	2759	2605	2741	114302	3085	213	1000000
+	1024	3484	3368	3463	11372	3915	156	1000000
+	1472	4129	4009	4108	110334	4490	192	1000000
+	1473	13585	13011	13504	129207	15148	445	368000
+	2048	13868	13365	13781	130863	15695	456	360000
+	4096	16738	16008	16655	124286	18426	459	299000
+	8192	23057	21638	22985	140220	25095	604	217000
+	16384	35621	34030	35472	150385	38409	866	141000
+	32768	63522	59886	63522	167616	67094	1398	79000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 20:02:53 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165660
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	1886	1688	1865	15089	2044	293	1000000
+	1	1877	1688	1866	9258	2014	105	1000000
+	2	1873	1685	1863	10121	2011	103	1000000
+	4	1877	1690	1866	11312	2013	104	1000000
+	8	1887	1701	1876	120866	2019	193	1000000
+	16	1880	1684	1869	11763	2018	105	1000000
+	32	1985	1794	1975	9152	2148	109	1000000
+	64	2023	1834	2012	115855	2190	194	1000000
+	128	2180	2000	2170	97655	2401	154	1000000
+	256	2377	2165	2361	117853	2682	212	1000000
+	512	2759	2616	2741	12112	3076	147	1000000
+	1024	3485	3362	3466	117612	3863	214	1000000
+	1472	4126	4006	4106	122493	4475	222	1000000
+	1473	13869	13251	13774	123405	15584	468	360000
+	2048	14070	13598	13994	136918	15821	443	355000
+	4096	17039	16043	16943	122694	18910	495	293000
+	8192	23124	22068	23080	133013	25281	645	216000
+	16384	35850	34220	35751	153355	38273	758	140000
+	32768	63847	60205	63831	177933	67349	1393	79000
+onload --profile=latency taskset -c 1 ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# date: Fri Aug 24 20:05:03 CST 2018
+# uname: Linux ct_test6 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+# cpu: model name	: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz
+sh: /sbin/lspci: No such file or directory
+# eno1: driver: tg3
+# eno1: version: 3.137
+# eno1: bus-info: 0000:03:00.0
+# eno2: driver: tg3
+# eno2: version: 3.137
+# eno2: bus-info: 0000:03:00.1
+# eno3: driver: tg3
+# eno3: version: 3.137
+# eno3: bus-info: 0000:03:00.2
+# eno4: driver: tg3
+# eno4: version: 3.137
+# eno4: bus-info: 0000:03:00.3
+# ens3f0: driver: sfc
+# ens3f0: version: 4.13.1.1034
+# ens3f0: bus-info: 0000:0a:00.0
+# ens3f1: driver: sfc
+# ens3f1: version: 4.13.1.1034
+# ens3f1: bus-info: 0000:0a:00.1
+# ram: MemTotal:       20351464 kB
+# cmdline: ./sfnt-pingpong --maxms=10000 --affinity 1,1 --timeout 1 udp 192.168.230.143
+# version: 1.5.0
+# src: 8dc3b027d85b28bedf9fd731362e4968
+# tsc_hz: 1995165870
+# LD_PRELOAD=libonload.so
+# onload_version=201805
+# EF_TCP_FASTSTART_INIT=0
+# EF_POLL_USEC=100000
+# EF_TCP_FASTSTART_IDLE=0
+# server LD_PRELOAD=libonload.so
+# percentile=99
+#
+#	size	mean	min	median	max	%ile	stddev	iter
+	0	1887	1662	1865	120671	2050	335	1000000
+	1	1879	1685	1868	18017	2017	109	1000000
+	2	1876	1682	1865	114320	2011	191	1000000
+	4	1878	1684	1867	9120	2017	107	1000000
+	8	1887	1686	1876	11428	2021	109	1000000
+	16	1883	1696	1872	117814	2022	189	1000000
+	32	1988	1802	1978	8828	2146	113	1000000
+	64	2024	1826	2013	117156	2198	197	1000000
+	128	2175	2007	2165	8626	2396	125	1000000
+	256	2377	2173	2360	118614	2682	211	1000000
+	512	2758	2608	2741	10878	3076	146	1000000
+	1024	3484	3351	3464	117101	3888	216	1000000
+	1472	4126	4005	4106	119715	4482	261	1000000
+	1473	13676	13043	13581	128947	15391	475	365000
+	2048	13884	13410	13817	127920	15441	407	360000
+	4096	16841	16012	16742	124420	18645	490	297000
+	8192	23114	21924	23042	135487	25238	626	216000
+	16384	35690	34103	35562	153475	38396	852	140000
+	32768	63679	60043	63675	180304	67056	1367	79000
